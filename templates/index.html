@@ -12,7 +12,9 @@
 <div class="content">
 
     <h1>Task Master</h1>
-
+    {% if tasks|length < 1 %}
+    <h4>There are no tasks yet. Create one below!</h4>
+    {% else %}
     <table> 
     <tr>
         <th>Task</th>
@@ -33,7 +35,7 @@
     </tr>
     {% endfor %}
     </table>
-
+    {% endif %}
     <form class="c_button" action="/" method="POST">
         <input type="text" name="content" id="content">
         <input type="submit" value="Add Task">
