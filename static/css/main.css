@@ -1,8 +1,43 @@
 body {
+    margin: 0 auto;
     margin: 0;
     font-family: sans-serif;
 }
 
 table, th, td{
+    margin: 0 auto;
     border: 1px solid black;
+}
+
+td{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.form{
+    margin-top: 1rem;
+}
+
+.content{
+    margin: 0 auto;
+}
+
+th{
+    height:1.5rem;
+}
+
+div{
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+
+.c_button{ 
+    text-align: center;
 }
