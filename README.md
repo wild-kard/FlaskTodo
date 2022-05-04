@@ -18,4 +18,4 @@
      <code>python3 app.py</code>
 </ul>
 
-<h3>Your application will now be running at [`localhost:5000`](http://localhost:5000) which you can visit with your favorite browser.</h3>
+<h3>Your application will now be running at <a href='http://localhost:5000'>localhost:5000</a> which you can visit with your favorite browser.</h3>
