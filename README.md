@@ -4,16 +4,18 @@
 
     <ul>
     <li>install dependencies (Flask and SQLalchemy NOTE: this project is curretly configured to use SQLite)
-    `pip install -r requirements.txt`
+    <br>
+    <code>pip install -r requirements.txt</code>
     <li>create and migrate the db
     <br>
-    `python3`
+    <code>python3</code>
     <br>
-    `from app import db`
+    <code>from app import db</code>
     <br>
-    `db.create_all()`
+    <code>db.create_all()</code>
     <li>start flask endpoint by running app.py
-     `python3 app.py`
+    <br>
+     <code>python3 app.py</code>
     </ul>
 
 <h2>Your application will now be running at [`localhost:5000`](http://localhost:5000) which you can visit with your favorite browser.</h2>
